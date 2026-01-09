@@ -22,13 +22,15 @@ export default function Hero() {
       />
 
       {/* Hero Card */}
+
       <div className="flex items-center justify-center w-full h-full">
+        {/* front side */}
         <motion.div
           initial={{ scale: 0.95, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           whileHover={{ scale: 1.03 }}
           transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
-          className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 backdrop-blur-lg rounded-3xl shadow-2xl w-[88%] max-w-[260px] sm:max-w-[320px] md:max-w-[340px] text-gray-100 p-4 sm:p-5"
+          className="frontside bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 backdrop-blur-lg rounded-3xl shadow-2xl w-[88%] max-w-[260px] sm:max-w-[320px] md:max-w-[340px] text-gray-100 p-4 sm:p-5"
           style={{ maxHeight: "95vh" }}
         >
           {/* Name */}
@@ -108,11 +110,11 @@ export default function Hero() {
               Portfolio
             </h2>
             <a
-              href="https://pf-website-9cd0.onrender.com/"
+              href="https://www.vishalkaushik.com/"
               target="_blank"
               className="text-indigo-400 hover:text-purple-400 font-semibold text-[10px] sm:text-xs underline transition-colors duration-300"
             >
-              💻 Visit Portfolio
+              💻 Visit my Website
             </a>
           </motion.div>
 
@@ -126,51 +128,50 @@ export default function Hero() {
               Connect
             </h2>
 
-           <div className="flex flex-wrap justify-center gap-x-3 gap-y-2 mt-2">
-  <a
-    href="https://www.instagram.com/visualcodecraft"
-    target="_blank"
-    className="text-[#E4405F] hover:text-[#FF6F91] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
-  >
-    Instagram
-  </a>
-  <a
-    href="https://www.linkedin.com/in/vishal-kaushik-891653261"
-    target="_blank"
-    className="text-[#0A66C2] hover:text-[#4B9BFF] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
-  >
-    LinkedIn
-  </a>
-  <a
-    href="https://www.facebook.com/profile.php?id=61576776659499"
-    target="_blank"
-    className="text-[#1877F2] hover:text-[#4B8FFF] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
-  >
-    Facebook
-  </a>
-  <a
-    href="https://vishalkakda.medium.com/"
-    target="_blank"
-    className="text-[#FF6D00] hover:text-[#FFA040] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
-  >
-    Medium
-  </a>
-  <a
-    href="https://x.com/thevishalcraft"
-    target="_blank"
-    className="text-[#1DA1F2] hover:text-[#4BB1FF] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
-  >
-    X / Twitter
-  </a>
-  <a
-    href="https://github.com/vkakda"
-    target="_blank"
-    className="text-[#9CA3AF] hover:text-[#FFFFFF] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
-  >
-    GitHub
-  </a>
-</div>
-
+            <div className="flex flex-wrap justify-center gap-x-3 gap-y-2 mt-2">
+              <a
+                href="https://www.instagram.com/visualcodecraft"
+                target="_blank"
+                className="text-[#E4405F] hover:text-[#FF6F91] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
+              >
+                Instagram
+              </a>
+              <a
+                href="https://www.linkedin.com/in/vishal-kaushik-891653261"
+                target="_blank"
+                className="text-[#0A66C2] hover:text-[#4B9BFF] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61576776659499"
+                target="_blank"
+                className="text-[#1877F2] hover:text-[#4B8FFF] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
+              >
+                Facebook
+              </a>
+              <a
+                href="https://vishalkakda.medium.com/"
+                target="_blank"
+                className="text-[#FF6D00] hover:text-[#FFA040] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
+              >
+                Medium
+              </a>
+              <a
+                href="https://x.com/thevishalcraft"
+                target="_blank"
+                className="text-[#1DA1F2] hover:text-[#4BB1FF] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
+              >
+                X / Twitter
+              </a>
+              <a
+                href="https://github.com/vkakda"
+                target="_blank"
+                className="text-[#9CA3AF] hover:text-[#FFFFFF] font-semibold text-[10px] sm:text-xs transition-colors duration-300"
+              >
+                GitHub
+              </a>
+            </div>
           </motion.div>
         </motion.div>
       </div>
